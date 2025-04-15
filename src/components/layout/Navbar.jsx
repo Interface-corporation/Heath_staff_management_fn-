@@ -19,7 +19,7 @@ const Navbar = () => {
                         <span className="ml-2 text-xl font-bold">Health Staff Manager</span>
                      </Link>
                  </div>
-                 <nav className="hidden  items-center md:ml-8 md:flex md:space-x-8 text-gray-500">
+                 <nav className="hidden  items-center md:ml-8 lg:flex  md:flex md:gap-5 text-gray-500">
                  <Link to="/" className="hover:text-blue-400">Home</Link>
                  <Link to="/" className="hover:text-blue-400">About</Link>
                  <Link to="/" className="hover:text-blue-400">Services</Link>
