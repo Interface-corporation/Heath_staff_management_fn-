@@ -42,8 +42,9 @@ It includes:
 ### 1. Clone the repo
 
 
-git clone https://github.com/Interface-corporation/Heath_staff_management_fn-.git
-cd health-staff-manager-app
+1.git clone https://github.com/Interface-corporation/Heath_staff_management_fn-.git
+
+2. cd health_staff_management_fn-
 
 ## Install dependencies
 
