@@ -1,14 +1,58 @@
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import Container from "../../components/layout/Container";
-import { CheckCircle } from "lucide-react";
+import {
+  Briefcase,
+  Building2,
+  CheckCircle,
+  Heart,
+  Settings,
+  Shield,
+  Lock,
+  Stethoscope,
+} from "lucide-react";
+
+const values = [
+  {
+    title: "Integrity",
+    description:
+      "Honesty and transparency in every process to build trust across our platform.",
+    icon: Shield,
+    iconColor: "text-blue-600",
+    bgColor: "bg-blue-50",
+  },
+  {
+    title: "Efficiency",
+    description:
+      "Streamlined workflows and automation so you can focus on what matters most—patient care.",
+    icon: Settings,
+    iconColor: "text-green-600",
+    bgColor: "bg-green-50",
+  },
+  {
+    title: "Security & Privacy",
+    description:
+      "Industry‑leading encryption and role‑based access to protect sensitive data.",
+    icon: Lock,
+    iconColor: "text-purple-600",
+    bgColor: "bg-purple-50",
+  },
+  {
+    title: "Empathy",
+    description:
+      "A user‑first design that understands and eases the daily stresses of healthcare work.",
+    icon: Heart,
+    iconColor: "text-pink-600",
+    bgColor: "bg-pink-50",
+  },
+];
 
 const About = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-1">
-        <section className="pt-38 text-white py-16 bg-gradient-to-br from-[#00A2E8]/90 to-[#5FB3B3]">
+        <section className="pt-38 text-white py-16 bg-gradient-to-br from-[#00A2E8]/100 to-[#5FB3B3]/100">
           <Container className="px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-2xl md:text-3xl font-bold mb-4">
               About Health Staff Manager
@@ -64,8 +108,11 @@ const About = () => {
 
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold mb-8 text-center">Who We Are</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto ">
+            <div className="flex justify-center items-center  gap-6 mb-8">
+              <Building2 size={52} className="text-blue-500" />
+              <h2 className="text-3xl font-bold ">Who We Are</h2>
+            </div>
+            <p className="text-[17px]  text-base leading-relaxed max-w-prose my-4 max-w-3xl mx-auto ">
               We are a dedicated team of healthcare and technology professionals
               who understand the critical importance of efficient staffing in
               the medical field. Drawing on our combined expertise in healthcare
@@ -88,10 +135,12 @@ const About = () => {
               building a future where healthcare workforce management is no
               longer a burden, but a strength.
             </p>
-            <h2 className="text-3xl font-bold mt-18 mb-8 text-center">
-              What We Do
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto ">
+            <div className="flex justify-center items-center  gap-6 mb-8 mt-18">
+              <Briefcase size={52} className="text-blue-500" />
+              <h2 className="text-3xl font-bold   ">What We Do</h2>
+            </div>
+
+            <p className="text-[17px] text-base leading-relaxed max-w-prose my-4 max-w-3xl mx-auto ">
               At Health Staff Manager App, we simplify the complex process of
               healthcare staffing by offering a powerful, all-in-one digital
               solution. Our platform is built to support the entire staffing
@@ -103,6 +152,44 @@ const About = () => {
               delivery — while giving healthcare workers a reliable and
               transparent experience
             </p>
+           
+          </div>
+        </section>
+        <section className="  bg-gray-50">
+          <div className=" container  mx-auto text-center ">
+          <div className="flex justify-center items-center  gap-6 mt-14">
+              <Stethoscope size={52} className="text-blue-500" />
+              <h2 className="text-3xl font-bold ">Our Core Values</h2>
+            </div>
+            <p className=" text-gray-600 mb-2">
+              Principles that guide every feature and interaction on the Health
+              Staff Manager App.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14 max-w-7xl mx-auto mt-18 ">
+            {values.map((val) => {
+              const Icon = val.icon;
+              return (
+                <div
+                  key={val.title}
+                  className={`flex flex-col items-center text-center p-6 rounded-lg shadow-xl hover:shadow-lg transition ${val.bgColor}`}
+                >
+                  <div
+                    className={`p-4 rounded-full mb-4 ${val.bgColor.replace(
+                      "-50",
+                      "-100"
+                    )}`}
+                  >
+                    <Icon className={`w-8 h-8 ${val.iconColor}`} />
+                  </div>
+                  <h3 className="text-xl font-medium text-gray-800">
+                    {val.title}
+                  </h3>
+                  <p className="mt-2 text-gray-600">{val.description}</p>
+                </div>
+              );
+            })}
           </div>
         </section>
       </main>
