@@ -1,7 +1,8 @@
-import { Link } from "react-router";
+
+import { Link } from "react-router-dom";
 import Container from "./Container";
 import { Activity, Menu, X } from "lucide-react";
-import Button from "../common/button";
+import Button from "../common/Button";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -19,19 +20,23 @@ const Navbar = () => {
             </Link>
           </div>
           <nav className="hidden  items-center md:ml-8 lg:flex  md:flex md:gap-5 text-gray-500">
+
             <Link to="/LandingPage" className="hover:text-blue-400">
               Home
             </Link>
             <Link to="/About" className="hover:text-blue-400">
+
               About
             </Link>
             <Link to="/" className="hover:text-blue-400">
               Services
             </Link>
+
             <Link to="/Contact" className="hover:text-blue-400">
               Contact
             </Link>
           </nav>
+
 
           <div className=" hidden gap-5 md:flex items-center  space-x-4">
             <Link to="/login">
