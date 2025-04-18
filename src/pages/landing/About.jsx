@@ -108,56 +108,34 @@ const About = () => {
 
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-center items-center  gap-6 mb-8">
+            <div className="flex justify-center items-center gap-6 mb-8">
               <Building2 size={52} className="text-blue-500" />
-              <h2 className="text-3xl font-bold ">Who We Are</h2>
+              <h2 className="text-3xl font-bold">Who We Are</h2>
             </div>
-            <p className="text-[17px]  text-base leading-relaxed  my-4 max-w-3xl mx-auto ">
-              We are a dedicated team of healthcare and technology professionals
-              who understand the critical importance of efficient staffing in
-              the medical field. Drawing on our combined expertise in healthcare
-              operations, digital transformation, and user-centered design, we
-              created the Health Staff Manager App to bridge the gap between
-              healthcare institutions and qualified professionals. Our team
-              recognizes the day-to-day challenges faced by hospitals and
-              clinics — from delayed recruitment processes and credential
-              verification to task assignments and performance tracking. At the
-              same time, we understand how difficult it can be for skilled
-              healthcare workers to find transparent, well-managed job
-              opportunities. That’s why we built the Health Staff Manager App: a
-              modern platform that simplifies recruitment, streamlines staff
-              management, and empowers both administrators and medical workers
-              with smart tools. Whether it's managing worker availability,
-              verifying credentials, or assigning urgent tasks, the platform
-              ensures that everything is handled securely, efficiently, and with
-              a human-first approach. At the core of what we do is a belief that
-              better staffing leads to better care. And with that vision, we're
-              building a future where healthcare workforce management is no
-              longer a burden, but a strength.
+            <p className="text-[17px] text-gray-700 leading-relaxed my-4 max-w-3xl mx-auto text-center">
+              We’re a team of healthcare and tech experts who created the Health
+              Staff Manager App to make medical staffing easier. Our platform
+              connects hospitals with qualified professionals, streamlines
+              hiring, verifies credentials, and manages staff tasks — all in one
+              secure, easy-to-use app. Our goal is simple: better staffing,
+              better care.
             </p>
-            <div className="flex justify-center items-center  gap-6 mb-8 mt-18">
+            <div className="flex justify-center items-center gap-6 mb-8 mt-20">
               <Briefcase size={52} className="text-blue-500" />
-              <h2 className="text-3xl font-bold   ">What We Do</h2>
+              <h2 className="text-3xl font-bold">What We Do</h2>
             </div>
-
-            <p className="text-[17px] text-base leading-relaxed  my-4 max-w-3xl mx-auto ">
-              At Health Staff Manager App, we simplify the complex process of
-              healthcare staffing by offering a powerful, all-in-one digital
-              solution. Our platform is built to support the entire staffing
-              journey — from the moment a healthcare professional submits an
-              application to the daily tasks they complete on the job, and the
-              administrative oversight that ensures smooth operation. By
-              addressing key pain points in healthcare workforce management, we
-              help organizations save time, reduce errors, and improve service
-              delivery — while giving healthcare workers a reliable and
-              transparent experience
+            <p className="text-[17px] text-gray-700 leading-relaxed my-4 max-w-3xl mx-auto text-center">
+              The Health Staff Manager App simplifies healthcare staffing with a
+              complete digital solution. From hiring to daily task management,
+              we help healthcare organizations save time and improve service,
+              while giving workers a reliable and transparent experience.
             </p>
-           
           </div>
         </section>
+
         <section className="  bg-gray-50">
           <div className=" container  mx-auto text-center ">
-          <div className="flex justify-center items-center  gap-6 mt-8 mb-10">
+            <div className="flex justify-center items-center  gap-6 mt-8 mb-10">
               <Stethoscope size={52} className="text-blue-500" />
               <h2 className="text-3xl font-bold  ">Our Core Values</h2>
             </div>
