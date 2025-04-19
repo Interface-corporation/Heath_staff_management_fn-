@@ -54,14 +54,20 @@ const Login = () => {
       <div className="w-full max-w-3xl bg-white shadow-xl rounded-2xl p-8 sm:p-10 md:p-12 mt-24 space-y-6">
         {/* Header */}
         <div className="text-center">
-          <Link to="/" className="flex items-center justify-center text-blue-500 hover:text-blue-600">
+          <Link
+            to="/"
+            className="flex items-center justify-center text-blue-500 hover:text-blue-600"
+          >
             <HeartHandshake size={40} />
-            <span className="ml-3 text-2xl sm:text-3xl font-bold">Welcome Back!</span>
+            <span className="ml-3 text-2xl sm:text-3xl font-bold">
+              Welcome Back!
+            </span>
           </Link>
-          <p className="mt-2 text-gray-600 text-sm sm:text-base">Please login to your account</p>
+          <p className="mt-2 text-gray-600 text-sm sm:text-base">
+            Please login to your account
+          </p>
         </div>
 
-    
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Input
@@ -114,9 +120,11 @@ const Login = () => {
             required
           />
 
-       
           <div>
-            <label htmlFor="role" className="block text-sm font-medium text-gray-700 mb-1">
+            <label
+              htmlFor="role"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
               Select Role
             </label>
             <select
@@ -133,11 +141,15 @@ const Login = () => {
             </select>
           </div>
 
-      
           <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-blue-600">
-            <Link to="/" className="hover:underline">Forgot password?</Link>
+            <Link to="/" className="hover:underline">
+              Forgot password?
+            </Link>
             <span>
-              Need an account? <Link to="/Register" className="underline">Register</Link>
+              Need an account?{" "}
+              <Link to="/register" className="underline">
+                Register
+              </Link>
             </span>
           </div>
 
