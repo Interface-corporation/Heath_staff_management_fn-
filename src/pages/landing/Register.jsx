@@ -17,12 +17,7 @@ const Register = () => {
 
   return (
     <Container>
-      <div className="flex items-center">
-        <Link to="/" className="flex-shrink-0 flex items-center">
-          <Activity size={42} className="text-blue-400" />
-          <span className="ml-2 text-xl font-bold">Health Staff Manager</span>
-        </Link>
-      </div>
+    
     </Container>
   );
 };
