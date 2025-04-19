@@ -1,5 +1,5 @@
 
-const Input = ({label,type="text",placeholder,required=false, isTextArea=false}) => {
+const Input = ({label,type="text",placeholder,required=false, isTextArea=false ,onChange}) => {
   return (
     <div className="mb-4">
     <label className="block text-lg font-medium text-gray-700 mb-1">
@@ -12,6 +12,7 @@ const Input = ({label,type="text",placeholder,required=false, isTextArea=false})
         placeholder={placeholder}
         rows={4}
         required={required}
+        onChange={onChange}
       />
     ) : (
       <input
