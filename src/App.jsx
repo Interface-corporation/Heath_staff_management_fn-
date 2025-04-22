@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router";
 import Login from "./pages/landing/Login";
 import Register from "./pages/landing/Register";
 import Services from "./pages/landing/Services";
+import ApplyPage from "./pages/landing/ApplyPage";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} /> 
+        <Route path="/ApplyPage"   element={<ApplyPage/>}/>
       </Routes>
       
       

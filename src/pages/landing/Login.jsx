@@ -9,12 +9,10 @@ const Login = () => {
   const navigate = useNavigate();
 
   const [formdata, setFormdata] = useState({
-    firstname: "",
-    lastname: "",
+   
     email: "",
     password: "",
-    confirmpassword: "",
-    role: "",
+
   });
 
   const handleChange = (e) => {

@@ -2,7 +2,7 @@
 const Input = ({label,type="text",placeholder,required=false, isTextArea=false ,onChange}) => {
   return (
     <div className="mb-4">
-    <label className="block text-lg font-medium text-gray-700 mb-1">
+    <label className="block text-md font-medium  mb-1">
       {label} {required && <span className="text-red-500">*</span>}
     </label>
     {isTextArea ? (

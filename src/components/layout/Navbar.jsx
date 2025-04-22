@@ -44,7 +44,7 @@ const Navbar = () => {
                 Log In
               </Button>
             </Link>
-            <Link to="/register">
+            <Link to="/ApplyPage">
               <Button className="text-white bg-blue-500 py-3 px-4 rounded-3xl cursor-pointer ">
                 Apply Now
               </Button>
