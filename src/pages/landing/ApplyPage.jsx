@@ -6,6 +6,7 @@ import Input from "../../components/common/Input";
 import DepartmentSelection from "../../components/layout/DepartmentSelection";
 import JobApplicationForm from "../../components/layout/JobApplicationForm ";
 import Button from "../../components/common/Button";
+import Footer from "../../components/layout/Footer";
 
 const ApplyPage = () => {
   const [formdata, setFormdata] = useState({
@@ -157,6 +158,7 @@ const ApplyPage = () => {
           </Container>
         </section>
       </main>
+      <Footer/>
     </div>
   );
 };
