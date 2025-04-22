@@ -12,6 +12,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import FAQSection from "../../feature/FAQSection";
 
 const Services = () => {
   return (
@@ -91,6 +92,9 @@ const Services = () => {
             >
               Get Started <ArrowRight className="w-5 h-5" />
             </Link>
+          </div>
+          <div>
+            <FAQSection/>
           </div>
         </Container>
       </main>

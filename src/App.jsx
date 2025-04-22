@@ -12,7 +12,7 @@ import Services from "./pages/landing/Services";
 const App = () => {
   return (
     <div className="font-[Poppins]">
-    
+      <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/landingPage" element={<LandingPage />} />
