@@ -69,26 +69,7 @@ const Login = () => {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Input
-              label="First Name"
-              type="text"
-              id="firstname"
-              value={formdata.firstname}
-              placeholder="John"
-              onChange={handleChange}
-              required
-            />
-            <Input
-              label="Last Name"
-              type="text"
-              id="lastname"
-              value={formdata.lastname}
-              placeholder="Doe"
-              onChange={handleChange}
-              required
-            />
-          </div>
+      
 
           <Input
             label="Email"
@@ -110,36 +91,9 @@ const Login = () => {
             required
           />
 
-          <Input
-            label="Confirm Password"
-            type="password"
-            id="confirmpassword"
-            value={formdata.confirmpassword}
-            placeholder="Re-enter your password"
-            onChange={handleChange}
-            required
-          />
+         
 
-          <div>
-            <label
-              htmlFor="role"
-              className="block text-sm font-medium text-gray-700 mb-1"
-            >
-              Select Role
-            </label>
-            <select
-              id="role"
-              value={formdata.role}
-              onChange={handleChange}
-              className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
-              required
-            >
-              <option value="">-- Choose Role --</option>
-              <option value="worker">Worker</option>
-              <option value="applicant">Applicant</option>
-              <option value="admin">Admin</option>
-            </select>
-          </div>
+         
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-blue-600">
             <Link to="/" className="hover:underline">
