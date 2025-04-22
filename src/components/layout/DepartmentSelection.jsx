@@ -29,7 +29,7 @@ const DepartmentSelection = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md mt-12 ">
+    <div className="max-w-4xl mx-auto p-6  mt-12 ">
       <h2 className=" text-start text-xl font-semibold  mb-4">
         Which department(s) are you interested in? *
       </h2>

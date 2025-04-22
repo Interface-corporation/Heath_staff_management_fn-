@@ -4,6 +4,8 @@ import Container from "../../components/layout/Container";
 import Navbar from "../../components/layout/Navbar";
 import Input from "../../components/common/Input";
 import DepartmentSelection from "../../components/layout/DepartmentSelection";
+import JobApplicationForm from "../../components/layout/JobApplicationForm ";
+import Button from "../../components/common/Button";
 
 const ApplyPage = () => {
   const [formdata, setFormdata] = useState({
@@ -12,7 +14,7 @@ const ApplyPage = () => {
     email: "",
     telephone: "",
     Zipcode: "",
-    position:"",
+    position: "",
   });
   const handleChange = (e) => {
     const { id, value } = e.target;
@@ -87,7 +89,7 @@ const ApplyPage = () => {
                     required
                   />
                 </div>
-               
+
                 <Input
                   label="Email"
                   type="text"
@@ -97,8 +99,10 @@ const ApplyPage = () => {
                   placeholder="example@mail.com"
                   required
                 />
-                 <p className="text-sm text-gray-700 mt-3 mb-3">We'll use this to contact you about your application</p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <p className="text-sm text-gray-700 mt-3 mb-3">
+                  We'll use this to contact you about your application
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                   <Input
                     label="Telephone"
                     type="number"
@@ -119,29 +123,36 @@ const ApplyPage = () => {
                   />
                 </div>
                 <select
-              id="position"
-              value={formdata.position}
-              onChange={handleChange}
-              className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
-              required
-            >
-              <option value="">-- Choose your position --</option>
-              <option value="worker">Clinical Nurse</option>
-              <option value="admin">Licensed Practical Nurse</option>
-              <option value="admin">Beneficiary Attendant</option>
-              <option value="admin">Health and Social Services Assistant</option>
-              <option value="admin">Physiotherapist</option>
-              <option value="admin">Respiratory Therapist</option>
-              <option value="admin">Occupational Therapist</option>
-              <option value="admin">Institutional Supervisor</option>
-              <option value="admin">Cleaning Attendant</option>
-              
+                  id="position"
+                  value={formdata.position}
+                  onChange={handleChange}
+                  className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                  required
+                >
+                  <option value="">-- Choose your position --</option>
+                  <option value="worker">Clinical Nurse</option>
+                  <option value="admin">Licensed Practical Nurse</option>
+                  <option value="admin">Beneficiary Attendant</option>
+                  <option value="admin">
+                    Health and Social Services Assistant
+                  </option>
+                  <option value="admin">Physiotherapist</option>
+                  <option value="admin">Respiratory Therapist</option>
+                  <option value="admin">Occupational Therapist</option>
+                  <option value="admin">Institutional Supervisor</option>
+                  <option value="admin">Cleaning Attendant</option>
+                </select>
 
-            </select>
-           
-             <DepartmentSelection/>
+                <DepartmentSelection />
+               
+                <JobApplicationForm/>
+                <div className="text-center ">
+                <Button className="px-5 py-3  bg-blue-500 rounded-lg  text-white">
+                  send
+                </Button>
+                </div>
+               
               </form>
-              
             </div>
           </Container>
         </section>
