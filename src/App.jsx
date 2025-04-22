@@ -12,12 +12,12 @@ import Services from "./pages/landing/Services";
 const App = () => {
   return (
     <div className="font-[Poppins]">
-      <Navbar />
+    
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/landingPage" element={<LandingPage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/Services" element={<Services />} /> 
+        <Route path="/services" element={<Services />} /> 
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} /> 
