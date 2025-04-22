@@ -34,7 +34,7 @@ const Services = () => {
       <main className="flex-1">
         <Container>
           <div className="text-center max-w-3xl mx-auto mt-16 mb-12">
-            <h2 className="text-2xl font-semibold text-blue-500 mb-3">
+            <h2 className="text-2xl font-semibold text-black mb-3">
               Empowering Healthcare through Technology
             </h2>
             <p className="text-gray-700 text-lg">
