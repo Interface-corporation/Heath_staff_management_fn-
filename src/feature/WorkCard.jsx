@@ -7,8 +7,8 @@ const WorkCard = ({span,title,description}) => {
             <div className="bg-[#00A2E8]/20 h-12 w-12 rounded-full flex items-center justify-center mb-6">
                 <span className="text-[#00A2E8] font-bold text-xl">{span}</span>
             </div>
-            <h3 className="text-xl font-semibold mb-3">{title}</h3>
-            <p className="text-gray-600">{description}</p>
+            <h3 className="text-xl font-semibold mb-3 ">{title}</h3>
+            <p className="text-gray-600 text-lg">{description}</p>
         </div>
     </div>
    

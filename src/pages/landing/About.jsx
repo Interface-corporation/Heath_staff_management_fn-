@@ -91,7 +91,6 @@ const About = () => {
           </div>
         </section>
 
-        {/* Who We Are & What We Do */}
         <section className="py-20 bg-gray-50 text-center">
           <div className="max-w-4xl mx-auto px-6">
             <div className="flex justify-center items-center gap-4 mb-6">
@@ -114,7 +113,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Core Values Section */}
+       
         <section className="py-20 bg-white">
           <div className="text-center">
             <div className="flex justify-center items-center gap-4 mb-4">

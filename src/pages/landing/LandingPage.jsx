@@ -104,10 +104,10 @@ const LandingPage = () => {
               <div className="flex items-start">
                 <CheckCircle className="text-white mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-white font-semibold text-lg">
+                  <h3 className="text-white font-semibold text-xl">
                     Verified Facilities
                   </h3>
-                  <p className="text-white/80">
+                  <p className="text-white/80 text-lg ">
                     All healthcare facilities on our platform undergo a thorough
                     verification process.
                   </p>
@@ -117,10 +117,10 @@ const LandingPage = () => {
               <div className="flex items-start">
                 <CheckCircle className="text-white mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-white font-semibold text-lg">
+                  <h3 className="text-white font-semibold text-xl">
                     Transparent Process
                   </h3>
-                  <p className="text-white/80">
+                  <p className="text-white/80 text-lg ">
                     Our platform provides full transparency throughout the
                     application and matching process.
                   </p>
@@ -130,10 +130,10 @@ const LandingPage = () => {
               <div className="flex items-start">
                 <CheckCircle className="text-white mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-white font-semibold text-lg">
+                  <h3 className="text-white font-semibold text-xl">
                     Support Team
                   </h3>
-                  <p className="text-white/80">
+                  <p className="text-white/80 text-lg ">
                     Our dedicated support team is available to assist you at
                     every step of your journey.
                   </p>

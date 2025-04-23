@@ -5,7 +5,7 @@ const FeautureCard = ({Icon,title,description}) => {
             <Icon size={28} className="text-[#00A2E8]" />
         </div>
         <h3 className="text-xl font-semibold mb-3">{title}</h3>
-        <p className="text-gray-600">{description}</p>
+        <p className="text-gray-600 text-lg">{description}</p>
     </div>
   )
 }
