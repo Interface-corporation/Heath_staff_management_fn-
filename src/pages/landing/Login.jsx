@@ -51,12 +51,12 @@ const Login = () => {
     <Container className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-white px-4 ">
       <div className="w-full max-w-3xl bg-white shadow-xl rounded-2xl p-8 sm:p-10 md:p-12 mt-24 space-y-6">
       
-        <div className="text-center flex flex-col lg:flex-row gap-2">
+        <div className="text-center">
           <Link
             to="/"
-            className="flex items-center justify-center text-blue-500 hover:text-blue-600"
+            className=" text-blue-500 hover:text-blue-600"
           >
-            <HeartHandshake size={40} />
+           
             <span className="ml-3 text-2xl sm:text-3xl font-bold">
               Welcome Back!
             </span>
