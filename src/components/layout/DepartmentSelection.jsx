@@ -25,7 +25,7 @@ const DepartmentSelection = () => {
     "Recovery room",
     "Intensive care",
     "Psychiatry / Mental Health",
-    "Vaccination"
+    "Vaccination",
   ];
 
   return (
@@ -33,7 +33,7 @@ const DepartmentSelection = () => {
       <h2 className=" text-start text-xl font-semibold  mb-4">
         Which department(s) are you interested in? *
       </h2>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {departments.map((department, index) => (
           <div key={index} className="flex items-center">
@@ -43,17 +43,12 @@ const DepartmentSelection = () => {
               name="departments"
               className="h-4 w-4 text-blue-600 rounded focus:ring-blue-500"
             />
-            <label
-              htmlFor={`dept-${index}`}
-              className="ml-2  text-md"
-            >
+            <label htmlFor={`dept-${index}`} className="ml-2  text-md">
               {department}
-              
             </label>
           </div>
         ))}
       </div>
-      
     </div>
   );
 };

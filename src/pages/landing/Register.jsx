@@ -40,7 +40,6 @@ const Register = () => {
 
     console.log("Registered User:", formdata);
 
- 
     navigate("/login");
   };
 
@@ -48,14 +47,15 @@ const Register = () => {
     <Container className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-white px-4">
       <div className="w-full max-w-3xl bg-white shadow-sm rounded-2xl p-8 sm:p-10 md:p-12 space-y-6">
         <div className="text-center  ">
-         
           <Link to="/" className=" text-blue-500 hover:text-blue-600">
-           
-            <span className="ml-3 text-2xl sm:text-3xl font-bold">Create an Account</span>
+            <span className="ml-3 text-2xl sm:text-3xl font-bold">
+              Create an Account
+            </span>
           </Link>
-        
-         
-          <p className="mt-2 text-gray-600 text-sm sm:text-base">Join us by filling the form below</p>
+
+          <p className="mt-2 text-gray-600 text-sm sm:text-base">
+            Join us by filling the form below
+          </p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -110,9 +110,11 @@ const Register = () => {
             required
           />
 
-      
           <div>
-            <label htmlFor="role" className="block text-sm font-medium text-gray-700 mb-1">
+            <label
+              htmlFor="role"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
               Select Role
             </label>
             <select
@@ -130,7 +132,10 @@ const Register = () => {
 
           <div className="text-sm text-center text-gray-600">
             Already have an account?{" "}
-            <Link to="/login" className="text-blue-600 underline hover:text-blue-800">
+            <Link
+              to="/login"
+              className="text-blue-600 underline hover:text-blue-800"
+            >
               Login
             </Link>
           </div>

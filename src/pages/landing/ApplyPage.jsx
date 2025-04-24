@@ -18,7 +18,7 @@ const ApplyPage = () => {
     Zipcode: "",
     position: "",
   });
-  
+
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormdata((prev) => ({
@@ -35,7 +35,6 @@ const ApplyPage = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-1">
-      
         <section className="text-white py-12 md:py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3] pt-32 md:pt-38">
           <Container className="px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
@@ -47,8 +46,7 @@ const ApplyPage = () => {
             </p>
           </Container>
         </section>
- 
-     
+
         <section className="pb-12 md:pb-16">
           <Container>
             <div className="max-w-3xl mx-auto mt-12 md:mt-24 px-4 sm:px-6 text-center md:text-start">
@@ -61,8 +59,7 @@ const ApplyPage = () => {
                 supporting you in the next step of your career!
               </p>
             </div>
-            
-           
+
             <div className="max-w-3xl mx-auto mt-12 md:mt-24 px-4 sm:px-6 flex flex-col justify-center items-center">
               <ActivityIcon className="h-12 w-12 md:h-16 md:w-16 border-2 border-blue-500 rounded-full p-2 text-blue-500" />
               <h1 className="mt-6 md:mt-12 text-lg md:text-xl lg:text-2xl font-bold">
@@ -75,8 +72,7 @@ const ApplyPage = () => {
                 </p>
               </div>
             </div>
-            
-         
+
             <div className="mt-8 md:mt-12 px-4 sm:px-6">
               <form onSubmit={handleSubmit} className="max-w-xl mx-auto">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
@@ -162,11 +158,11 @@ const ApplyPage = () => {
                 <div className="mt-4 md:mt-6">
                   <DepartmentSelection />
                 </div>
-                
+
                 <div className="mt-4 md:mt-6">
-                 <JobApplicationForm />
+                  <JobApplicationForm />
                 </div>
-                
+
                 <div className="text-center mt-6 md:mt-8">
                   <Button className="px-4 py-2 md:px-5 md:py-3 bg-blue-500 rounded-lg text-white text-sm md:text-base">
                     Send Application

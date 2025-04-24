@@ -9,10 +9,8 @@ const Login = () => {
   const navigate = useNavigate();
 
   const [formdata, setFormdata] = useState({
-   
     email: "",
     password: "",
-
   });
 
   const handleChange = (e) => {
@@ -50,13 +48,8 @@ const Login = () => {
   return (
     <Container className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-white px-4 ">
       <div className="w-full max-w-3xl bg-white shadow-sm rounded-2xl p-8 sm:p-10 md:p-12 mt-24 space-y-6">
-      
         <div className="text-center">
-          <Link
-            to="/"
-            className=" text-blue-500 hover:text-blue-600"
-          >
-           
+          <Link to="/" className=" text-blue-500 hover:text-blue-600">
             <span className="ml-3 text-2xl sm:text-3xl font-bold">
               Welcome Back!
             </span>
@@ -67,8 +60,6 @@ const Login = () => {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-      
-
           <Input
             label="Email"
             type="email"
@@ -88,10 +79,6 @@ const Login = () => {
             onChange={handleChange}
             required
           />
-
-         
-
-         
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-blue-600">
             <Link to="/" className="hover:underline">
