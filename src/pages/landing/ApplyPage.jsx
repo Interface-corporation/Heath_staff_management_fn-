@@ -33,7 +33,7 @@ const ApplyPage = () => {
     <div className="min-h-screen flex flex-col mt-18">
       <Navbar />
       <main>
-        <section className="text-white py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3] mt-8">
+        <section className="text-white py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3] pt-24">
           <Container className="px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-2xl md:text-3xl font-bold mb-4">
               Would you like to put your skills to good use?
