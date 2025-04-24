@@ -41,7 +41,7 @@ const LandingPage = () => {
               <img
                 src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 alt="Healthcare professionals"
-                className="rounded-lg shadow-xl w-full object-cover h-96"
+                className="rounded-lg shadow-sm w-full object-cover h-96"
               />
             </div>
           </div>

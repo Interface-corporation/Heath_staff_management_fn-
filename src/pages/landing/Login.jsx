@@ -49,7 +49,7 @@ const Login = () => {
 
   return (
     <Container className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-white px-4 ">
-      <div className="w-full max-w-3xl bg-white shadow-xl rounded-2xl p-8 sm:p-10 md:p-12 mt-24 space-y-6">
+      <div className="w-full max-w-3xl bg-white shadow-sm rounded-2xl p-8 sm:p-10 md:p-12 mt-24 space-y-6">
       
         <div className="text-center">
           <Link

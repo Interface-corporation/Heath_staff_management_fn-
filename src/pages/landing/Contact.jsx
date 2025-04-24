@@ -32,7 +32,7 @@ const Contact = () => {
   <section className="mt-20">
     <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-8 lg:gap-12 px-4 sm:px-6">
    
-      <div className="flex flex-col w-full sm:w-[400px] justify-center items-center bg-white shadow-xl rounded-lg p-6">
+      <div className="flex flex-col w-full sm:w-[400px] justify-center items-center bg-white shadow-sm rounded-lg p-6">
         <div className="bg-[#00A2E8]/10 h-16 w-16 rounded-lg flex justify-center items-center">
           <Phone size={28} className="text-[#00A2E8]" />
         </div>
@@ -44,7 +44,7 @@ const Contact = () => {
       </div>
 
     
-      <div className="flex flex-col w-full sm:w-[400px] justify-center items-center bg-white shadow-xl rounded-lg p-6">
+      <div className="flex flex-col w-full sm:w-[400px] justify-center items-center bg-white shadow-sm rounded-lg p-6">
         <div className="bg-[#00A2E8]/10 h-16 w-16 rounded-lg flex justify-center items-center">
           <Mail size={28} className="text-[#00A2E8]" />
         </div>
@@ -56,7 +56,7 @@ const Contact = () => {
       </div>
 
      
-      <div className="flex flex-col w-full sm:w-[400px] justify-center items-center bg-white shadow-xl rounded-lg p-6">
+      <div className="flex flex-col w-full sm:w-[400px] justify-center items-center bg-white shadow-sm rounded-lg p-6">
         <div className="bg-[#00A2E8]/10 h-16 w-16 rounded-lg flex justify-center items-center">
           <MapPin size={28} className="text-[#00A2E8]" />
         </div>
@@ -76,11 +76,11 @@ const Contact = () => {
           <img 
             src={doc1} 
             alt="doctor image" 
-            className="w-full max-w-[500px] lg:max-w-none h-auto object-contain rounded-lg shadow-lg"
+            className="w-full max-w-[500px] lg:max-w-none h-auto object-contain rounded-lg shadow-sm "
           />
         </div>
 
-        <div className="w-full lg:w-1/2 bg-white rounded-lg shadow-2xl p-6">
+        <div className="w-full lg:w-1/2 bg-white rounded-lg shadow-sm p-6">
           <h1 className="text-2xl font-bold mb-8 text-center">Get in Touch!</h1>
           
           <form onSubmit={handleSubmit}>
