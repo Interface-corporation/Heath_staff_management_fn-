@@ -24,7 +24,7 @@ const LandingPage = () => {
                 professionals with healthcare facilities in need.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/register">
+                <Link to="/ApplyPage">
                   <Button className=" flex bg-white hover:bg-white text-[#00A2E8] py-2 px-6 rounded-xl cursor-pointer">
                     Apply Now <ArrowRight size={20} className="pl-2  pt-1" />
                   </Button>
