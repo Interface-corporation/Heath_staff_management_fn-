@@ -80,13 +80,13 @@ const Login = () => {
             required
           />
 
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-blue-600">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm ">
             <Link to="/" className="hover:underline">
               Forgot password?
             </Link>
             <span>
               Need an account?{" "}
-              <Link to="/register" className="underline">
+              <Link to="/register" className="underline text-blue-600">
                 Register
               </Link>
             </span>
