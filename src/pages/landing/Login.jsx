@@ -81,7 +81,7 @@ const Login = () => {
           />
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm ">
-            <Link to="/" className="hover:underline">
+            <Link to="/" className="hover:underline text-blue-600">
               Forgot password?
             </Link>
             <span>
