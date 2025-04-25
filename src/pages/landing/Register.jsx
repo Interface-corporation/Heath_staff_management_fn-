@@ -45,7 +45,7 @@ const Register = () => {
 
   return (
     <Container className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-white px-4">
-      <div className="w-full max-w-3xl bg-white shadow-sm rounded-2xl p-8 sm:p-10 md:p-12 space-y-6">
+      <div className="w-full max-w-xl bg-white shadow-sm rounded-2xl p-8 sm:p-10 md:p-12 space-y-6">
         <div className="text-center  ">
           <Link to="/" className=" text-blue-500 hover:text-blue-600">
             <span className="ml-3 text-2xl sm:text-3xl font-bold">
