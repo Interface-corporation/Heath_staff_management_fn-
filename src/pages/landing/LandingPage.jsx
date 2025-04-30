@@ -82,19 +82,19 @@ const LandingPage = () => {
       <section className="py-8">
         <Testimonial />
       </section>
-      <section className="bg-[#00A2E8] py-16 mt-18">
+      <section className="bg-gray-200 py-16 mt-18">
         <Container className=" px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">
+              <h2 className="text-3xl font-bold text-black mb-4">
                 Ready to Advance Your Healthcare Career?
               </h2>
-              <p className="text-xl text-white/90 mb-8">
+              <p className="text-xl text-black mb-8">
                 Join thousands of healthcare professionals on our platform and
                 discover new opportunities.
               </p>
               <Link to="/register">
-                <Button className=" flex bg-white hover:bg-white text-[#00A2E8] py-2 px-6 rounded-xl cursor-pointer">
+                <Button className=" flex bg-blue-500 hover:bg-blue-300 duration-400 text-white py-2 px-6 rounded-xl cursor-pointer">
                   Apply Now <ArrowRight size={20} className="pl-2  pt-1" />
                 </Button>
               </Link>
@@ -102,12 +102,12 @@ const LandingPage = () => {
 
             <div className="space-y-4">
               <div className="flex items-start">
-                <CheckCircle className="text-white mr-3 flex-shrink-0 mt-1" />
+                <CheckCircle className="text-black mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-white font-semibold text-xl">
+                  <h3 className="text-black font-semibold text-xl">
                     Verified Facilities
                   </h3>
-                  <p className="text-white/80 text-lg ">
+                  <p className="text-black text-lg ">
                     All healthcare facilities on our platform undergo a thorough
                     verification process.
                   </p>
@@ -115,12 +115,12 @@ const LandingPage = () => {
               </div>
 
               <div className="flex items-start">
-                <CheckCircle className="text-white mr-3 flex-shrink-0 mt-1" />
+                <CheckCircle className="text-black mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-white font-semibold text-xl">
+                  <h3 className="text-black font-semibold text-xl">
                     Transparent Process
                   </h3>
-                  <p className="text-white/80 text-lg ">
+                  <p className="text-black text-lg ">
                     Our platform provides full transparency throughout the
                     application and matching process.
                   </p>
@@ -128,12 +128,12 @@ const LandingPage = () => {
               </div>
 
               <div className="flex items-start">
-                <CheckCircle className="text-white mr-3 flex-shrink-0 mt-1" />
+                <CheckCircle className="text-black mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-white font-semibold text-xl">
+                  <h3 className="text-black font-semibold text-xl">
                     Support Team
                   </h3>
-                  <p className="text-white/80 text-lg ">
+                  <p className="text-black text-lg ">
                     Our dedicated support team is available to assist you at
                     every step of your journey.
                   </p>

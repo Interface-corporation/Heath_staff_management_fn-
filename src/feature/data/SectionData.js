@@ -1,5 +1,11 @@
 import { Building, Calendar,  User } from "lucide-react";
-
+import {
+ 
+  Heart,
+  Settings,
+  Shield,
+  Lock,
+} from "lucide-react";
 
 
 
@@ -109,6 +115,36 @@ const testimonials = [
       answer: "Absolutely. We prioritize security and use industry-standard encryption to protect your data."
     }
   ];
+  const values = [
+    {
+      title: "Integrity",
+      description: "Transparent hiring processes, task assignments, and performance reviews across the system.",
+      icon: Shield,
+      iconColor: "text-blue-600",
+      bgColor: "bg-blue-100",
+    },
+    {
+      title: "Efficiency",
+      description: "Automated staffing workflows—from application to task completion and admin reporting.",
+      icon: Settings,
+      iconColor: "text-green-600",
+      bgColor: "bg-green-100",
+    },
+    {
+      title: "Security & Privacy",
+      description: "Encrypted data handling and role-based access to protect sensitive healthcare credentials.",
+      icon: Lock,
+      iconColor: "text-purple-600",
+      bgColor: "bg-purple-100",
+    },
+    {
+      title: "Empathy",
+      description: "Designed to reduce admin burden and support healthcare professionals with ease-of-use.",
+      icon: Heart,
+      iconColor: "text-pink-600",
+      bgColor: "bg-pink-100",
+    },
+  ];
 
 
-export  {sections, testimonials,services,workData,faqs}
+export  {sections, testimonials,services,workData,faqs,values}

@@ -1,83 +1,54 @@
-import Navbar from "../../components/layout/Navbar";
-import Footer from "../../components/layout/Footer";
 import Container from "../../components/layout/Container";
-import {
-  Briefcase,
-  Building2,
-  CheckCircle,
-  Heart,
-  Settings,
-  Shield,
-  Lock,
-  Stethoscope,
-} from "lucide-react";
+import { Briefcase, Building2, CheckCircle, Stethoscope } from "lucide-react";
 
-const values = [
-  {
-    title: "Integrity",
-    description: "Transparent hiring processes, task assignments, and performance reviews across the system.",
-    icon: Shield,
-    iconColor: "text-blue-600",
-    bgColor: "bg-blue-100",
-  },
-  {
-    title: "Efficiency",
-    description: "Automated staffing workflows—from application to task completion and admin reporting.",
-    icon: Settings,
-    iconColor: "text-green-600",
-    bgColor: "bg-green-100",
-  },
-  {
-    title: "Security & Privacy",
-    description: "Encrypted data handling and role-based access to protect sensitive healthcare credentials.",
-    icon: Lock,
-    iconColor: "text-purple-600",
-    bgColor: "bg-purple-100",
-  },
-  {
-    title: "Empathy",
-    description: "Designed to reduce admin burden and support healthcare professionals with ease-of-use.",
-    icon: Heart,
-    iconColor: "text-pink-600",
-    bgColor: "bg-pink-100",
-  },
-];
+import { values } from "../../feature/data/SectionData";
 
 const About = () => {
   return (
     <div className="min-h-screen flex flex-col mt-18">
-      <Navbar />
       <main className="flex-1">
-        
         <section className="text-white py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3]">
           <Container className="px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-2xl md:text-3xl font-bold mb-4">About Health Staff Manager</h1>
+            <h1 className="text-2xl md:text-3xl font-bold mb-4">
+              About Health Staff Manager
+            </h1>
             <p className="text-lg text-white/90 max-w-2xl mx-auto">
-              Empowering healthcare staffing through technology. We simplify hiring, task assignment, and worker management.
+              Empowering healthcare staffing through technology. We simplify
+              hiring, task assignment, and worker management.
             </p>
           </Container>
         </section>
 
-      
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Mission</h2>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">
+                Our Mission
+              </h2>
               <p className="text-lg text-gray-600 mb-6">
-                To bridge the gap between healthcare providers and professionals with an intelligent and secure digital system.
+                To bridge the gap between healthcare providers and professionals
+                with an intelligent and secure digital system.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="text-blue-600 w-6 h-6" />
-                  <span className="text-gray-600">Digitizing the entire recruitment and credentialing process</span>
+                  <span className="text-gray-600">
+                    Digitizing the entire recruitment and credentialing process
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="text-blue-600 w-6 h-6" />
-                  <span className="text-gray-600">Providing real-time task tracking for professionals and admins</span>
+                  <span className="text-gray-600">
+                    Providing real-time task tracking for professionals and
+                    admins
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="text-blue-600 w-6 h-6" />
-                  <span className="text-gray-600">Ensuring data security and operational transparency at every level</span>
+                  <span className="text-gray-600">
+                    Ensuring data security and operational transparency at every
+                    level
+                  </span>
                 </li>
               </ul>
             </div>
@@ -98,7 +69,9 @@ const About = () => {
               <h2 className="text-3xl font-bold text-gray-800">Who We Are</h2>
             </div>
             <p className="text-lg text-gray-700">
-              We’re healthcare specialists and engineers committed to transforming medical staffing. We unite hospitals and healthcare professionals through a robust digital platform.
+              We’re healthcare specialists and engineers committed to
+              transforming medical staffing. We unite hospitals and healthcare
+              professionals through a robust digital platform.
             </p>
           </div>
 
@@ -108,19 +81,26 @@ const About = () => {
               <h2 className="text-3xl font-bold text-gray-800">What We Do</h2>
             </div>
             <p className="text-lg text-gray-700">
-              We offer an end-to-end solution for healthcare staffing—from online applications and credential uploads to task assignments, tracking, and administrative reporting. Everything runs securely, smoothly, and efficiently.
+              We offer an end-to-end solution for healthcare staffing—from
+              online applications and credential uploads to task assignments,
+              tracking, and administrative reporting. Everything runs securely,
+              smoothly, and efficiently.
             </p>
           </div>
         </section>
 
-       
         <section className="py-20 bg-white">
           <div className="text-center">
             <div className="flex justify-center items-center gap-4 mb-4">
               <Stethoscope className="text-blue-500 w-8 h-8" />
-              <h2 className="text-3xl font-bold text-gray-800">Our Core Values</h2>
+              <h2 className="text-3xl font-bold text-gray-800">
+                Our Core Values
+              </h2>
             </div>
-            <p className="text-gray-600 mb-12">These values power the decisions, designs, and outcomes of the Health Staff Manager platform.</p>
+            <p className="text-gray-600 mb-12">
+              These values power the decisions, designs, and outcomes of the
+              Health Staff Manager platform.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
@@ -131,18 +111,23 @@ const About = () => {
                   key={val.title}
                   className={`bg-white border border-gray-200 rounded-xl p-6 text-center shadow hover:shadow-md transition duration-300`}
                 >
-                  <div className={`mx-auto mb-4 w-14 h-14 flex items-center justify-center rounded-full ${val.bgColor}`}>
+                  <div
+                    className={`mx-auto mb-4 w-14 h-14 flex items-center justify-center rounded-full ${val.bgColor}`}
+                  >
                     <Icon className={`w-7 h-7 ${val.iconColor}`} />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800">{val.title}</h3>
-                  <p className="mt-2 text-lg text-gray-600">{val.description}</p>
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    {val.title}
+                  </h3>
+                  <p className="mt-2 text-lg text-gray-600">
+                    {val.description}
+                  </p>
                 </div>
               );
             })}
           </div>
         </section>
       </main>
-      <Footer />
     </div>
   );
 };
