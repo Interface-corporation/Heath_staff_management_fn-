@@ -17,7 +17,7 @@ import FAQSection from "../../feature/FAQSection";
 const Services = () => {
   return (
     <div className="min-h-screen flex flex-col mt-18">
-      <Navbar />
+   
       <section className="text-white py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3]">
         <Container className="px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-2xl md:text-3xl font-bold mb-4">
@@ -99,7 +99,7 @@ const Services = () => {
         </Container>
       </main>
 
-      <Footer />
+    
     </div>
   );
 };

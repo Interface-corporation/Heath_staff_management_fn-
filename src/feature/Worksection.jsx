@@ -1,6 +1,6 @@
 import Container from "../components/layout/Container"
 import SectionTitle from "./SectionTitle"
-import {sections,workData} from "./SectionData"
+import {sections,workData} from "./data/SectionData"
 import WorkCard from "./WorkCard"
 
 const Worksection = () => {

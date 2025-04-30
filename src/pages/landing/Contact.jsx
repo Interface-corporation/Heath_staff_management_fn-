@@ -13,7 +13,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen flex flex-col ">
-      <Navbar />
+    
       <main className="flex-1">
         <section className="pt-38 text-white py-16 bg-gradient-to-br from-[#00A2E8]/90 to-[#5FB3B3]">
           <Container className="px-4 sm:px-6 lg:px-8 text-center">
@@ -137,7 +137,7 @@ const Contact = () => {
         </Container>
       </main>
 
-      <Footer />
+    
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import Container from "../components/layout/Container"
 import FeautureCard from "./FeautureCard"
-import {sections,services} from "./SectionData"
+import {sections,services} from "./data/SectionData"
 import SectionTitle from "./SectionTitle"
 
 

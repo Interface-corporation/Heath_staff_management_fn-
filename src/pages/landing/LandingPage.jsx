@@ -11,7 +11,7 @@ import Button from "../../components/common/Button";
 const LandingPage = () => {
   return (
     <>
-      <Navbar />
+     
       <section className="relative top-[70px] bg-gradient-to-br from-[#00A2E8]/100 to-[#5FB3B3]/100 text-white">
         <Container className=" px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center pb-24">
@@ -143,7 +143,7 @@ const LandingPage = () => {
           </div>
         </Container>
       </section>
-      <Footer />
+   
     </>
   );
 };
