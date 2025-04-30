@@ -31,7 +31,7 @@ const Footer = () => {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">
               Stay Updated with Our Newsletter
             </h2>
-            <p className="text-white max-w-2xl mx-auto mb-6">
+            <p className="text-white text-lg max-w-2xl mx-auto mb-6">
               Subscribe to receive the latest job opportunities, industry news,
               and healthcare staffing insights directly to your inbox.
             </p>
@@ -77,7 +77,7 @@ const Footer = () => {
               </Link>
             </div>
 
-            <p className="text-white">
+            <p className="text-white text-lg">
               Streamlining healthcare staffing to connect professionals with
               healthcare facilities efficiently and effectively.
             </p>
@@ -118,7 +118,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/"
-                  className="text-white hover:text-blue-600 transition-colors"
+                  className="text-white text-lg hover:text-blue-600 transition-colors"
                 >
                   Home
                 </Link>
@@ -126,7 +126,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/about"
-                  className="text-white hover:text-blue-600 transition-colors"
+                  className="text-white text-lg hover:text-blue-600 transition-colors"
                 >
                   About Us
                 </Link>
@@ -134,7 +134,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/services"
-                  className="text-white hover:text-blue-600 transition-colors"
+                  className="text-white text-lg hover:text-blue-600 transition-colors"
                 >
                   Services
                 </Link>
