@@ -33,7 +33,8 @@ const ApplyPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
+     
+     
       <main className="flex-1">
         <section className="text-white py-12 md:py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3] pt-32 md:pt-38">
           <Container className="px-4 sm:px-6 lg:px-8 text-center">
@@ -173,7 +174,7 @@ const ApplyPage = () => {
           </Container>
         </section>
       </main>
-      <Footer />
+     
     </div>
   );
 };

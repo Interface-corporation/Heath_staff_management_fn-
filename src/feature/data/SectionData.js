@@ -1,5 +1,11 @@
 import { Building, Calendar,  User } from "lucide-react";
-
+import {
+ 
+  Heart,
+  Settings,
+  Shield,
+  Lock,
+} from "lucide-react";
 
 
 
@@ -78,7 +84,67 @@ const testimonials = [
       description:"Get matched with healthcare facilities based on your skills, preferences, and availability."
 
     }
-  ]
+  ];
+  const faqs = [
+    {
+      question: "What services do you offer?",
+      answer: "We offer a range of customized solutions designed to meet your specific needs, including [brief service list]."
+    },
+    {
+      question: "How can I get started?",
+      answer: "Getting started is easy! Simply [describe how—fill a form, contact support, sign up, etc.]."
+    },
+    {
+      question: "Is there a free trial or demo available?",
+      answer: "Yes, we offer a [duration] free trial/demo so you can explore our service before committing."
+    },
+    {
+      question: "What makes your service different from others?",
+      answer: "Our service stands out due to its [key advantage—e.g., affordability, innovation, customer support, etc.]."
+    },
+    {
+      question: "How do I contact customer support?",
+      answer: "You can reach us via email at [email], phone at [number], or live chat on our website."
+    },
+    {
+      question: "Do you offer customization or tailored solutions?",
+      answer: "Yes! We work closely with clients to provide solutions that are fully tailored to their needs."
+    },
+    {
+      question: "Is my data secure with your service?",
+      answer: "Absolutely. We prioritize security and use industry-standard encryption to protect your data."
+    }
+  ];
+  const values = [
+    {
+      title: "Integrity",
+      description: "Transparent hiring processes, task assignments, and performance reviews across the system.",
+      icon: Shield,
+      iconColor: "text-blue-600",
+      bgColor: "bg-blue-100",
+    },
+    {
+      title: "Efficiency",
+      description: "Automated staffing workflows—from application to task completion and admin reporting.",
+      icon: Settings,
+      iconColor: "text-green-600",
+      bgColor: "bg-green-100",
+    },
+    {
+      title: "Security & Privacy",
+      description: "Encrypted data handling and role-based access to protect sensitive healthcare credentials.",
+      icon: Lock,
+      iconColor: "text-purple-600",
+      bgColor: "bg-purple-100",
+    },
+    {
+      title: "Empathy",
+      description: "Designed to reduce admin burden and support healthcare professionals with ease-of-use.",
+      icon: Heart,
+      iconColor: "text-pink-600",
+      bgColor: "bg-pink-100",
+    },
+  ];
 
 
-export  {sections, testimonials,services,workData}
+export  {sections, testimonials,services,workData,faqs,values}

@@ -1,6 +1,6 @@
 import Container from "../components/layout/Container";
 import SectionTitle from "./SectionTitle";
-import { sections, testimonials } from "./SectionData";
+import { sections, testimonials } from "./data/SectionData";
 import { useEffect, useState } from "react";
 import Button from "../components/common/Button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
