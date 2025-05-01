@@ -1,13 +1,11 @@
 import { useState } from "react";
 import { ActivityIcon } from "lucide-react";
 import Container from "../../components/layout/Container";
-import Navbar from "../../components/layout/Navbar";
 import Input from "../../components/common/Input";
 import DepartmentSelection from "../../components/layout/DepartmentSelection";
 import JobApplicationForm from "../../components/layout/JobApplicationForm ";
-
 import Button from "../../components/common/Button";
-import Footer from "../../components/layout/Footer";
+
 
 const ApplyPage = () => {
   const [formdata, setFormdata] = useState({
@@ -33,15 +31,13 @@ const ApplyPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-     
-     
       <main className="flex-1">
         <section className="text-white py-12 md:py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3] pt-32 md:pt-38">
           <Container className="px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+            <h1 className="text-3xl  font-bold mb-4">
               Would you like to put your skills to good use?
             </h1>
-            <p className="text-base md:text-lg text-white/90 max-w-2xl mx-auto">
+            <p className="text-[15px] text-white/90 max-w-2xl mx-auto">
               Do not hesitate to submit your application to us, our recruitment
               department will contact you for more details
             </p>
@@ -51,7 +47,7 @@ const ApplyPage = () => {
         <section className="pb-12 md:pb-16">
           <Container>
             <div className="max-w-3xl mx-auto mt-12 md:mt-24 px-4 sm:px-6 text-center md:text-start">
-              <p className="text-sm md:text-base">
+              <p className="text-[15px] ">
                 Take a moment to fill out this quick form; It's designed to help
                 us understand exactly what you're looking for. One of our
                 recruiters will contact you immediately to discuss your career
@@ -67,7 +63,7 @@ const ApplyPage = () => {
                 Application submission form
               </h1>
               <div className="max-w-xl text-center mt-2 md:mt-3">
-                <p className="text-sm md:text-base">
+                <p className="text-[15px] ">
                   As soon as you have filled out this form, one of our
                   recruiters will contact you without delay!
                 </p>
@@ -107,7 +103,7 @@ const ApplyPage = () => {
                     placeholder="example@mail.com"
                     required
                   />
-                  <p className="text-xs md:text-sm text-gray-700 mt-1 md:mt-2 mb-2 md:mb-3">
+                  <p className="text-xs  text-gray-700 mt-1 md:mt-2 mb-2 md:mb-3">
                     We'll use this to contact you about your application
                   </p>
                 </div>
@@ -138,7 +134,7 @@ const ApplyPage = () => {
                     id="position"
                     value={formdata.position}
                     onChange={handleChange}
-                    className="w-full border border-gray-300 rounded-md p-2 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-blue-300"
+                    className="w-full border border-gray-300 rounded-md p-2 text-[15px] focus:outline-none focus:ring-2 focus:ring-blue-300"
                     required
                   >
                     <option value="">-- Choose your position --</option>
@@ -174,7 +170,6 @@ const ApplyPage = () => {
           </Container>
         </section>
       </main>
-     
     </div>
   );
 };

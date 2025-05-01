@@ -21,31 +21,31 @@ const Navbar = () => {
           </div>
           <nav className="hidden  items-center md:ml-8 lg:flex  md:flex md:gap-5 text-black">
 
-            <Link to="" className="hover:text-blue-400 text-lg">
+            <Link to="" className="hover:text-blue-400 text-md">
               Home
             </Link>
-            <Link to="/about" className="hover:text-blue-400 text-lg">
+            <Link to="/about" className="hover:text-blue-400 text-md">
 
               About
             </Link>
-            <Link to="/services" className="hover:text-blue-400 text-lg">
+            <Link to="/services" className="hover:text-blue-400 text-md">
               Services
             </Link>
 
-            <Link to="/contact" className="hover:text-blue-400 text-lg">
+            <Link to="/contact" className="hover:text-blue-400 text-md">
               Contact
             </Link>
           </nav>
 
 
-          <div className=" hidden gap-5 md:flex items-center  space-x-4">
+          <div className=" text-md hidden gap-5 md:flex items-center  space-x-4">
             <Link to="/login">
-              <Button className="text-gray-500  border border-blue-300 py-2 px-4 rounded-3xl  cursor-pointer">
+              <Button className=" px-2 py-2 border-2 border-blue-600  rounded-lg cursor-pointer">
                 Log In
               </Button>
             </Link>
             <Link to="/apply-page">
-              <Button className="text-white bg-blue-500 py-3 px-4 rounded-3xl cursor-pointer ">
+              <Button className=" text-md text-white bg-blue-500 py-2 px-4 rounded-lg cursor-pointer ">
                 Apply Now
               </Button>
             </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/about"
-                className="block px-3 py-2 rounded-md font-medium hover:bg-gray-100"
+                className="block px-3 py-2 rounded-md font-medium hover:bg-gray-100 "
                 onClick={() => setIsOpen(false)}
               >
                 About

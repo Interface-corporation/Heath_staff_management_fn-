@@ -17,10 +17,10 @@ const Contact = () => {
       <main className="flex-1">
         <section className="pt-38 text-white py-16 bg-gradient-to-br from-[#00A2E8]/90 to-[#5FB3B3]">
           <Container className="px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-2xl md:text-3xl font-bold mb-4">
+            <h1 className="text-3xl font-bold mb-4">
               Get in Touch
             </h1>
-            <p className="text-xl  text-white/90 max-w-2xl mx-auto ">
+            <p className="text-[15px]  text-white/90 max-w-2xl mx-auto ">
               We're here to help you with any questions about our healthcare
               staffing platform
             </p>
@@ -28,15 +28,15 @@ const Contact = () => {
         </section>
 
         <Container>
-          <section className="mt-20">
+          <section className="mt-20 mb-18">
             <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-8 lg:gap-12 px-4 sm:px-6">
               <div className="flex flex-col w-full sm:w-[400px] justify-center items-center bg-white shadow-sm rounded-lg p-6">
                 <div className="bg-[#00A2E8]/10 h-16 w-16 rounded-lg flex justify-center items-center">
                   <Phone size={28} className="text-[#00A2E8]" />
                 </div>
                 <div className="flex flex-col justify-center items-center text-center">
-                  <p className="text-xl mt-4 font-bold">Phone</p>
-                  <p className="text-lg  text-gray-600 mt-2">
+                  <p className="text-lg mt-4 font-bold">Phone</p>
+                  <p className="text-[15px]  text-gray-600 mt-2">
                     Reach out anytime for immediate case coordination and
                     support.
                   </p>
@@ -51,8 +51,8 @@ const Contact = () => {
                   <Mail size={28} className="text-[#00A2E8]" />
                 </div>
                 <div className="flex flex-col justify-center items-center text-center">
-                  <p className="text-xl mt-4 font-bold">Email</p>
-                  <p className="text-lg  mt-2 text-gray-600">
+                  <p className="text-lg mt-4 font-bold">Email</p>
+                  <p className="text-[15px]  mt-2 text-gray-600">
                     Reach out anytime for immediate case coordination and
                     support.
                   </p>
@@ -67,8 +67,8 @@ const Contact = () => {
                   <MapPin size={28} className="text-[#00A2E8]" />
                 </div>
                 <div className="flex flex-col justify-center items-center text-center">
-                  <p className="text-xl mt-4 font-bold">Location</p>
-                  <p className="text-lg  text-gray-600 mt-2">
+                  <p className="text-lg mt-4 font-bold">Location</p>
+                  <p className="text-[15px]  text-gray-600 mt-2">
                     Reach out anytime for immediate case coordination and
                     support.
                   </p>
@@ -91,7 +91,7 @@ const Contact = () => {
             </div>
 
             <div className="w-full lg:w-1/2 bg-white rounded-lg shadow-sm p-6">
-              <h1 className="text-2xl font-bold mb-8 text-center">
+              <h1 className="text-3xl font-bold mb-8 text-center">
                 Get in Touch!
               </h1>
 
@@ -112,7 +112,7 @@ const Contact = () => {
 
                 <hr className="my-6 border-gray-300" />
 
-                <h2 className="text-xl font-semibold mb-4">Your subject</h2>
+                <h2 className="text-lg font-semibold mb-4">Your subject</h2>
 
                 <Input label="Subject" placeholder="Subject title " required />
 

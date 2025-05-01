@@ -23,15 +23,15 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-blue-400 ">
+    <footer className="bg-blue-400 pt-18">
       <Container className="py-12 px-4 sm:px-6 lg:px-8">
        
         <div className="mb-12 p-6 sm:p-8  ">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-white mb-3">
               Stay Updated with Our Newsletter
             </h2>
-            <p className="text-white text-lg max-w-2xl mx-auto mb-6">
+            <p className="text-white text-[15px] max-w-2xl mx-auto mb-6">
               Subscribe to receive the latest job opportunities, industry news,
               and healthcare staffing insights directly to your inbox.
             </p>
@@ -70,14 +70,14 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center">
               <Link to="/" className="flex-shrink-0 flex items-center">
-                <Activity size={42} className="text-blue-500" />
-                <span className="ml-2 text-xl font-extrabold text-white">
+                <Activity size={42} className="text-blue-800 " />
+                <span className="ml-2 text-xl font-bold text-black">
                   Health Staff Manager
                 </span>
               </Link>
             </div>
 
-            <p className="text-white text-lg">
+            <p className="text-white text-[15px]">
               Streamlining healthcare staffing to connect professionals with
               healthcare facilities efficiently and effectively.
             </p>
@@ -85,25 +85,25 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-white hover:text-blue-600 transition-colors"
+                className="text-white hover:text-blue-800 transition-colors"
               >
                 <Facebook size={20} />
               </a>
               <a
                 href="#"
-                className="text-white hover:text-blue-600 transition-colors"
+                className="text-white hover:text-blue-800 transition-colors"
               >
                 <Twitter size={20} />
               </a>
               <a
                 href="#"
-                className="text-white hover:text-blue-600 transition-colors"
+                className="text-white hover:text-blue-800 transition-colors"
               >
                 <Linkedin size={20} />
               </a>
               <a
                 href="#"
-                className="text-white hover:text-blue-600 transition-colors"
+                className="text-white hover:text-blue-800 transition-colors"
               >
                 <Instagram size={20} />
               </a>
@@ -118,7 +118,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Home
                 </Link>
@@ -126,7 +126,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/about"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   About Us
                 </Link>
@@ -134,7 +134,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/services"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Services
                 </Link>
@@ -142,7 +142,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/register"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Apply Now
                 </Link>
@@ -150,7 +150,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/contact"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Contact
                 </Link>
@@ -166,7 +166,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="#"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Healthcare Staffing
                 </Link>
@@ -174,7 +174,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="#"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Credential Verification
                 </Link>
@@ -182,7 +182,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="#"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Skill Development
                 </Link>
@@ -190,7 +190,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="#"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Career Advancement
                 </Link>
@@ -198,7 +198,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="#"
-                  className="text-white text-lg hover:text-blue-600 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   Compliance Solutions
                 </Link>
@@ -216,7 +216,7 @@ const Footer = () => {
                   size={20}
                   className="mr-3 text-blue-900 flex-shrink-0 mt-1"
                 />
-                <span className="text-white text-lg">
+                <span className="text-white text-[15px]">
                   123 Healthcare Ave, Medical District, MD 12345
                 </span>
               </li>
@@ -224,7 +224,7 @@ const Footer = () => {
                 <Phone size={20} className="mr-3 text-blue-900 flex-shrink-0" />
                 <Link
                   to="tel:+11234567890"
-                  className="text-white text-lg hover:text-blue-500 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   +1 (123) 456-7890
                 </Link>
@@ -233,7 +233,7 @@ const Footer = () => {
                 <Mail size={20} className="mr-3 text-blue-900 flex-shrink-0" />
                 <Link
                   to="mailto:info@healthstaffmanager.com"
-                  className="text-white text-lg hover:text-blue-500 transition-colors"
+                  className="text-white text-[15px] hover:text-blue-900 transition-colors"
                 >
                   info@healthstaffmanager.com
                 </Link>
@@ -243,7 +243,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-200">
-          <p className="text-white text-lg text-center  md:text-base">
+          <p className="text-white text-[15px] text-center  md:text-base">
             © {new Date().getFullYear()} Health Staff Manager. All rights
             reserved.
             <span className="block sm:inline-block sm:ml-4 mt-2 sm:mt-0">

@@ -14,22 +14,22 @@ const LandingPage = () => {
         <Container className=" px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center pb-24">
             <div className="space-y-6">
-              <h1 className="text-2xl md:text-4xl font-bold leading-tight">
+              <h1 className="text-3xl font-bold leading-tight">
                 Connecting Healthcare Professionals with Opportunities
               </h1>
-              <p className="text-xl text-white/90 max-w-lg">
+              <p className=" text-white/90 max-w-lg">
                 Streamlining the process of matching qualified healthcare
                 professionals with healthcare facilities in need.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link to="/ApplyPage">
-                  <Button className=" flex bg-white hover:bg-white text-[#00A2E8] py-2 px-6 rounded-xl cursor-pointer">
+                  <Button className=" flex bg-white hover:bg-white text-[#00A2E8] py-2 px-6 rounded-lg cursor-pointer">
                     Apply Now <ArrowRight size={20} className="pl-2  pt-1" />
                   </Button>
                 </Link>
 
                 <Link to="/login">
-                  <Button className=" text-white hover:bg-white py-2 px-3 hover:text-black hover:rounded-xl  cursor-pointer  pt-1 duration-500">
+                  <Button className=" text-white hover:bg-white py-2 px-3 hover:text-black hover:rounded-lg  cursor-pointer  pt-1 duration-500">
                     Log In
                   </Button>
                 </Link>
@@ -70,7 +70,7 @@ const LandingPage = () => {
           <Worksection />
           <div className="flex items-center justify-center mt-12">
             <Link to="/register">
-              <Button className=" flex  bg-blue-500 text-white py-2 px-4 rounded-xl cursor-pointer">
+              <Button className=" flex  bg-blue-500 text-white py-2 px-4 rounded-lg cursor-pointer">
                 Get Started Today <ArrowRight size={24} className="ml-2" />
               </Button>
             </Link>
@@ -84,10 +84,10 @@ const LandingPage = () => {
         <Container className=" px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-black mb-4">
+              <h2 className="text-2xl font-bold text-black mb-4">
                 Ready to Advance Your Healthcare Career?
               </h2>
-              <p className="text-xl text-black mb-8">
+              <p className="text-[15px] text-black mb-8">
                 Join thousands of healthcare professionals on our platform and
                 discover new opportunities.
               </p>
@@ -102,10 +102,10 @@ const LandingPage = () => {
               <div className="flex items-start">
                 <CheckCircle className="text-black mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-black font-semibold text-xl">
+                  <h3 className="text-black font-semibold text-lg">
                     Verified Facilities
                   </h3>
-                  <p className="text-black text-lg ">
+                  <p className="text-black  text-[15px]">
                     All healthcare facilities on our platform undergo a thorough
                     verification process.
                   </p>
@@ -115,10 +115,10 @@ const LandingPage = () => {
               <div className="flex items-start">
                 <CheckCircle className="text-black mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-black font-semibold text-xl">
+                  <h3 className="text-black font-semibold text-lg">
                     Transparent Process
                   </h3>
-                  <p className="text-black text-lg ">
+                  <p className="text-black text-[15px] ">
                     Our platform provides full transparency throughout the
                     application and matching process.
                   </p>
@@ -128,10 +128,10 @@ const LandingPage = () => {
               <div className="flex items-start">
                 <CheckCircle className="text-black mr-3 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-black font-semibold text-xl">
+                  <h3 className="text-black font-semibold text-lg">
                     Support Team
                   </h3>
-                  <p className="text-black text-lg ">
+                  <p className="text-black text-[15px] ">
                     Our dedicated support team is available to assist you at
                     every step of your journey.
                   </p>

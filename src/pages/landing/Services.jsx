@@ -16,14 +16,14 @@ import FAQSection from "../../feature/FAQSection";
 
 const Services = () => {
   return (
-    <div className="min-h-screen flex flex-col mt-18">
+    <div className="min-h-screen flex flex-col mt-18 mb-18">
    
       <section className="text-white py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3]">
         <Container className="px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-2xl md:text-3xl font-bold mb-4">
+          <h1 className="text-3xl font-bold mb-4">
             Our digital platform services
           </h1>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto">
+          <p className="text-[15px] text-white/90 max-w-2xl mx-auto">
             We provide innovative,
             reliable, and user-friendly solutions tailored to meet your unique
             needs.
@@ -34,10 +34,10 @@ const Services = () => {
       <main className="flex-1">
         <Container>
           <div className="text-center max-w-3xl mx-auto mt-16 mb-12">
-            <h2 className="text-2xl font-semibold text-black mb-3">
+            <h2 className="text-3xl font-semibold text-black mb-3">
               Empowering Healthcare through Technology
             </h2>
-            <p className="text-gray-700 text-lg">
+            <p className="text-gray-700 text-[15px] mt-10">
               Health Staff Manager offers a complete platform for healthcare
               staffing—from recruitment to task execution and admin management—
               ensuring better performance, transparency, and professional
@@ -45,7 +45,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col lg:flex-row items-center gap-12 mt-24">
             <div className="w-full lg:w-1/2">
               <img
                 src={service}
@@ -83,7 +83,7 @@ const Services = () => {
           </div>
 
           <div className="text-center mt-24 mb-20">
-            <h4 className="text-2xl font-semibold text-gray-800 mb-4">
+            <h4 className="text-3xl font-bold mb-12">
               Ready to transform your healthcare staffing?
             </h4>
             <Link
@@ -105,13 +105,13 @@ const Services = () => {
 };
 
 const ServiceItem = ({ icon: Icon, title, text }) => (
-  <div className="flex items-start gap-4 mb-6">
+  <div className="flex items-start gap-10 mb-10">
     <div className="bg-blue-200 p-3 rounded-full">
-      <Icon className="text-blue-600 w-6 h-6" w />
+      <Icon className="text-blue-600 w-6 h-6" />
     </div>
     <div>
-      <h4 className="text-lg font-semibold text-gray-800">{title}</h4>
-      <p className="text-gray-600">{text}</p>
+      <h4 className=" text-lg font-semibold text-gray-800 mb-2">{title}</h4>
+      <p className="text-gray-600 text-[15px]">{text}</p>
     </div>
   </div>
 );
