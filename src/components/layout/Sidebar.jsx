@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
   Home,
-  FileText,
   CheckSquare,
   Users,
   BarChart2,
@@ -60,12 +59,7 @@ const Sidebar = ({ userRole }) => {
     ];
 
     const roleSpecificItems = {
-      applicant: [
-        { icon: Home, label: "Dashboard", href: "/applicant" },
-        { icon: FileText, label: "My Application", href: "/applicant/application" },
-        { icon: Upload, label: "Documents", href: "/applicant/documents" },
-        { icon: User, label: "Profile", href: "/applicant/profile" },
-      ],
+    
       worker: [
         { icon: Home, label: "Dashboard", href: "/worker" },
         { icon: CheckSquare, label: "Tasks", href: "/worker/tasks" },

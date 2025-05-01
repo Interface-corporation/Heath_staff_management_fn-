@@ -23,7 +23,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-blue-400 mt-28">
+    <footer className="bg-blue-400 ">
       <Container className="py-12 px-4 sm:px-6 lg:px-8">
        
         <div className="mb-12 p-6 sm:p-8  ">

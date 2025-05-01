@@ -8,6 +8,7 @@ import Register from "./pages/landing/Register";
 import Services from "./pages/landing/Services";
 import ApplyPage from "./pages/landing/ApplyPage";
 import GuestLayout from "./components/layout/GuestLayout";
+import Sidebar from "./components/layout/Sidebar"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -15,11 +16,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <GuestLayout />,
     children: [
-      { path: "/LandingPage", element: <LandingPage /> },
+      { path: "", element: <LandingPage /> },
       { path: "about", element: <About /> },
       { path: "services", element: <Services /> },
       { path: "contact", element: <Contact /> },
-      { path: "ApplyPage", element: <ApplyPage /> },
+      { path: "apply-page", element: <ApplyPage /> },
     ],
   },
   {
@@ -29,12 +30,17 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />,
+
   },
+  {
+    path:"/dashboard",
+    element:<Sidebar/>
+  }
 ]);
 
 const App = () => {
   return (
-    <div>
+    <div className="font-['Poppins']">
       <RouterProvider router={router} />
     </div>
   );

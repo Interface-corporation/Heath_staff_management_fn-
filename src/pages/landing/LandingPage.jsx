@@ -1,11 +1,9 @@
 import { Link } from "react-router";
 import Container from "../../components/layout/Container";
-import Navbar from "../../components/layout/Navbar";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import FeatureSection from "../../feature/FeatureSection";
 import Worksection from "../../feature/Worksection";
 import Testimonial from "../../feature/Testimonial";
-import Footer from "../../components/layout/Footer";
 import Button from "../../components/common/Button";
 
 const LandingPage = () => {

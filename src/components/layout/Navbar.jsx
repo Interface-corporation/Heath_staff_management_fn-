@@ -19,20 +19,20 @@ const Navbar = () => {
               </span>
             </Link>
           </div>
-          <nav className="hidden  items-center md:ml-8 lg:flex  md:flex md:gap-5 text-gray-500">
+          <nav className="hidden  items-center md:ml-8 lg:flex  md:flex md:gap-5 text-black">
 
-            <Link to="/LandingPage" className="hover:text-blue-400">
+            <Link to="" className="hover:text-blue-400 text-lg">
               Home
             </Link>
-            <Link to="/About" className="hover:text-blue-400">
+            <Link to="/about" className="hover:text-blue-400 text-lg">
 
               About
             </Link>
-            <Link to="/services" className="hover:text-blue-400">
+            <Link to="/services" className="hover:text-blue-400 text-lg">
               Services
             </Link>
 
-            <Link to="/Contact" className="hover:text-blue-400">
+            <Link to="/contact" className="hover:text-blue-400 text-lg">
               Contact
             </Link>
           </nav>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 Log In
               </Button>
             </Link>
-            <Link to="/ApplyPage">
+            <Link to="/apply-page">
               <Button className="text-white bg-blue-500 py-3 px-4 rounded-3xl cursor-pointer ">
                 Apply Now
               </Button>
