@@ -19,7 +19,12 @@ const JobApplicationForm = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-6 ">
+    <div 
+
+
+
+    
+    className="max-w-5xl mx-auto p-6 ">
       <div className="mb-6">
         <h2 className="text-lg font-semibold  mb-3">
           Type of position sought? <span className="text-red-500"> *</span>
@@ -37,10 +42,7 @@ const JobApplicationForm = () => {
                 className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                 required
               />
-              <label
-                htmlFor={`position-${position}`}
-                className="ml-2 "
-              >
+              <label htmlFor={`position-${position}`} className="ml-2 ">
                 {position}
               </label>
             </div>
@@ -50,7 +52,8 @@ const JobApplicationForm = () => {
 
       <div className="mb-6">
         <h2 className="text-lg font-semibold mb-3">
-          Type of schedule you are looking for? <span className="text-red-500"> *</span>
+          Type of schedule you are looking for?{" "}
+          <span className="text-red-500"> *</span>
         </h2>
         <div className="space-y-2 text-[15px]">
           {["Day", "Evening", "Night", "Weekends", "Every other weekend"].map(
