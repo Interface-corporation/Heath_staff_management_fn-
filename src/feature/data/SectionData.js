@@ -5,6 +5,11 @@ import {
   Settings,
   Shield,
   Lock,
+  Home,
+  Users,
+  CheckSquare,
+  BarChart2,
+  Bell
 } from "lucide-react";
 
 
@@ -145,6 +150,15 @@ const testimonials = [
       bgColor: "bg-pink-100",
     },
   ];
+  
+  const menuItems = [
+    { icon: Home, label: "Dashboard", href: "/admin" },
+    { icon: Users, label: "User Management", href: "/admin/users" },
+    { icon: CheckSquare, label: "Task Management", href: "/admin/tasks" },
+    { icon: BarChart2, label: "Reports", href: "/admin/reports" },
+    { icon: Bell, label: "Notifications", href: "/admin/notifications" },
+    { icon: Settings, label: "Settings", href: "/admin/settings" },
+  ];
 
 
-export  {sections, testimonials,services,workData,faqs,values}
+export  {sections, testimonials,services,workData,faqs,values,menuItems}

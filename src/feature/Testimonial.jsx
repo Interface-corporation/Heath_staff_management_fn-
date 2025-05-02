@@ -36,7 +36,7 @@ const Testimonial = () => {
         description={sections[2].description}
       />
       <div className="relative max-w-4xl mx-auto px-4 mt-12">
-        <div className="shadow-lg  border border-blue-200 rounded-2xl py-10 px-6 md:px-12 ">
+        <div className="shadow-sm  border border-blue-200 rounded-2xl py-10 px-6 md:px-12 ">
           <div className="flex flex-col items-center">
             <div className="h-20 w-20 rounded-full overflow-hidden mb-4 border-4 border-[#00A2E8]/20">
               <img
@@ -45,14 +45,14 @@ const Testimonial = () => {
                 className="h-full w-full object-cover"
               />
             </div>
-            <p className="text-gray-700 text-lg md:text-xl text-center mb-6 italic">
+            <p className="text-gray-700   text-center mb-6 italic">
               "{testimonials[currentTestimonial].quote}"
             </p>
             <div className="text-center">
               <h4 className="font-semibold text-gray-900">
                 {testimonials[currentTestimonial].name}
               </h4>
-              <p className="text-gray-500">
+              <p className="text-gray-500 text-sm">
                 {testimonials[currentTestimonial].role}
               </p>
             </div>

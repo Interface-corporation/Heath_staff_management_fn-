@@ -19,12 +19,17 @@ const JobApplicationForm = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-6 ">
+    <div 
+
+
+
+    
+    className="max-w-5xl mx-auto p-6 ">
       <div className="mb-6">
-        <h2 className="text-lg font-semibold text-gray-800 mb-3">
-          Type of position sought? *
+        <h2 className="text-lg font-semibold  mb-3">
+          Type of position sought? <span className="text-red-500"> *</span>
         </h2>
-        <div className="flex flex-col lg:flex-row gap-12">
+        <div className="flex flex-col lg:flex-row gap-12 text-[15px]">
           {["Full-time", "Part-time", "One-time shifts"].map((position) => (
             <div key={position} className="flex items-center">
               <input
@@ -37,10 +42,7 @@ const JobApplicationForm = () => {
                 className="h-4 w-4 text-blue-600 focus:ring-blue-500"
                 required
               />
-              <label
-                htmlFor={`position-${position}`}
-                className="ml-2 text-gray-700"
-              >
+              <label htmlFor={`position-${position}`} className="ml-2 ">
                 {position}
               </label>
             </div>
@@ -50,9 +52,10 @@ const JobApplicationForm = () => {
 
       <div className="mb-6">
         <h2 className="text-lg font-semibold mb-3">
-          Type of schedule you are looking for? *
+          Type of schedule you are looking for?{" "}
+          <span className="text-red-500"> *</span>
         </h2>
-        <div className="space-y-2">
+        <div className="space-y-2 text-[15px]">
           {["Day", "Evening", "Night", "Weekends", "Every other weekend"].map(
             (schedule) => (
               <div key={schedule} className="flex items-center">
@@ -93,7 +96,7 @@ const JobApplicationForm = () => {
 
       <div className="mb-6">
         <label className="block text-lg font-semibold  mb-1">
-          Attach your resume *
+          Attach your resume <span className="text-red-500"> *</span>
         </label>
         <p className="text-sm text-gray-500 mb-3">
           Please attach your CV in .pdf format (preferred) or .doc
