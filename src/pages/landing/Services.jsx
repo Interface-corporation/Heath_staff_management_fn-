@@ -11,15 +11,12 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import FAQSection from "../../feature/FAQSection";
-import { Helmet } from "react-helmet-async";
+import SEO from "../../components/common/seo";
 
 const Services = () => {
   return (
     <>
-     <Helmet>
-        <title>Service page</title>
-        <meta name="description" content="Service page " />
-      </Helmet>
+     <SEO title="Service page" description="Service page" content="Service page" />
     <div className="min-h-screen flex flex-col mt-18 mb-18">
    
       <section className="text-white py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3]">

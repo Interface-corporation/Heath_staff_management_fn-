@@ -5,15 +5,13 @@ import FeatureSection from "../../feature/FeatureSection";
 import Worksection from "../../feature/Worksection";
 import Testimonial from "../../feature/Testimonial";
 import Button from "../../components/common/Button";
-import { Helmet } from "react-helmet-async";
+import SEO from "../../components/common/seo";
+
 
 const LandingPage = () => {
   return (
     <>
-      <Helmet>
-        <title>home page</title>
-        <meta name="description" content="home page " />
-      </Helmet>
+       <SEO title="Home page" description="Home page" content="Home page" />
       <section className="relative top-[70px] bg-gradient-to-br from-[#00A2E8]/100 to-[#5FB3B3]/100 text-white">
         <Container className=" px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center pb-24">

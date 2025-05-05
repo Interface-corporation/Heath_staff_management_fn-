@@ -50,5 +50,5 @@ const App = () => {
    
   );
 };
-w
+
 export default App;

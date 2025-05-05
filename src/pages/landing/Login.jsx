@@ -1,11 +1,9 @@
 import Container from "../../components/layout/Container";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
-
 import Button from "../../components/common/Button";
-import { div } from "framer-motion/client";
-import { Helmet } from "react-helmet-async";
 import Input from "../../components/common/Input";
+import SEO from "../../components/common/seo";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -49,10 +47,7 @@ const Login = () => {
 
   return (
     <div>
- <Helmet>
-  <title>login page</title>
-  <meta name='description' content='login page ' />
- </Helmet>
+    <SEO title="Login page" description="Login page" content="Login page" />
 
     <Container className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-white px-4 ">
       <div className="w-full max-w-xl bg-white shadow-sm rounded-2xl p-8 sm:p-10 md:p-12 mt-24 space-y-6">

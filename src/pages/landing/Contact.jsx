@@ -3,7 +3,8 @@ import Container from "../../components/layout/Container";
 import { Link } from "react-router";
 import doc1 from "../../assets/images/doc1.webp";
 import Input from "../../components/common/Input";
-import { Helmet } from "react-helmet-async";
+import SEO from "../../components/common/seo";
+
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -12,10 +13,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Helmet>
-        <title>Contact page</title>
-        <meta name="description" content="contact page " />
-      </Helmet>
+     <SEO title="Contact page" description="Contact page" content="Contact page" />
       <div className="min-h-screen flex flex-col ">
         <main className="flex-1">
           <section className="pt-38 text-white py-16 bg-gradient-to-br from-[#00A2E8]/90 to-[#5FB3B3]">
