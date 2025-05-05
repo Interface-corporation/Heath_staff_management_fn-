@@ -103,7 +103,7 @@ const Navbar = () => {
                   </Button>
                 </Link>
                 <Link
-                  to="/register"
+                  to="/apply-page"
                   className="w-full"
                   onClick={() => setIsOpen(false)}
                 >

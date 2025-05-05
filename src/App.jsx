@@ -10,6 +10,7 @@ import ApplyPage from "./pages/landing/ApplyPage";
 import GuestLayout from "./components/layout/GuestLayout";
 import Sidebar from "./components/layout/Sidebar"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter([
   {
@@ -38,12 +39,16 @@ const router = createBrowserRouter([
   }
 ]);
 
+const helmetContext = {};
 const App = () => {
   return (
+    <HelmetProvider context={helmetContext}>
     <div className="font-['Poppins']">
       <RouterProvider router={router} />
     </div>
+    </HelmetProvider>
+   
   );
 };
-
+w
 export default App;

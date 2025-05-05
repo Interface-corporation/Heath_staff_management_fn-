@@ -1,7 +1,5 @@
 import React from "react";
 import Container from "../../components/layout/Container";
-import Navbar from "../../components/layout/Navbar";
-import Footer from "../../components/layout/Footer";
 import service from "../../assets/images/service.jpeg";
 
 import {
@@ -13,9 +11,15 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import FAQSection from "../../feature/FAQSection";
+import { Helmet } from "react-helmet-async";
 
 const Services = () => {
   return (
+    <>
+     <Helmet>
+        <title>Service page</title>
+        <meta name="description" content="Service page " />
+      </Helmet>
     <div className="min-h-screen flex flex-col mt-18 mb-18">
    
       <section className="text-white py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3]">
@@ -101,6 +105,7 @@ const Services = () => {
 
     
     </div>
+    </>
   );
 };
 
@@ -114,6 +119,7 @@ const ServiceItem = ({ icon: Icon, title, text }) => (
       <p className="text-gray-600 text-[15px]">{text}</p>
     </div>
   </div>
+ 
 );
 
 export default Services;
