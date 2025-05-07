@@ -84,7 +84,7 @@ const Services = () => {
           </div>
 
           <div className="text-center mt-24 mb-20">
-            <h4 className="text-3xl font-bold mb-12">
+            <h4 className="text-2xl font-semibold mb-12">
               Ready to transform your healthcare staffing?
             </h4>
             <Link
