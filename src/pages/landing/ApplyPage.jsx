@@ -5,8 +5,7 @@ import Input from "../../components/common/Input";
 import DepartmentSelection from "../../components/layout/DepartmentSelection";
 import JobApplicationForm from "../../components/layout/JobApplicationForm ";
 import Button from "../../components/common/Button";
-import { div } from "framer-motion/client";
-import { Helmet } from "react-helmet-async";
+import SEO from "../../components/common/seo";
 
 const ApplyPage = () => {
   const [formdata, setFormdata] = useState({
@@ -32,10 +31,7 @@ const ApplyPage = () => {
 
   return (
     <div>
-      <Helmet>
-        <title>Apply page</title>
-        <meta name="description" content="Apply page " />
-      </Helmet>
+      <SEO title="Apply page" description="Apply page" content="Apply page" />
       <div className="min-h-screen flex flex-col">
         <main className="flex-1">
           <section className="text-white py-12 md:py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3] pt-32 md:pt-38">

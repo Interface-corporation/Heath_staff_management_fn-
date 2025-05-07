@@ -11,15 +11,12 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import FAQSection from "../../feature/FAQSection";
-import { Helmet } from "react-helmet-async";
+import SEO from "../../components/common/seo";
 
 const Services = () => {
   return (
     <>
-     <Helmet>
-        <title>Service page</title>
-        <meta name="description" content="Service page " />
-      </Helmet>
+     <SEO title="Service page" description="Service page" content="Service page" />
     <div className="min-h-screen flex flex-col mt-18 mb-18">
    
       <section className="text-white py-20 bg-gradient-to-br from-[#00A2E8] to-[#5FB3B3]">
@@ -87,7 +84,7 @@ const Services = () => {
           </div>
 
           <div className="text-center mt-24 mb-20">
-            <h4 className="text-3xl font-bold mb-12">
+            <h4 className="text-2xl font-semibold mb-12">
               Ready to transform your healthcare staffing?
             </h4>
             <Link

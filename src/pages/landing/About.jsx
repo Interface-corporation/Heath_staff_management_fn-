@@ -1,16 +1,12 @@
 import Container from "../../components/layout/Container";
 import { Briefcase, Building2, CheckCircle, Stethoscope } from "lucide-react";
 import { values } from "../../feature/data/SectionData";
-import { Helmet } from "react-helmet-async";
+import SEO from "../../components/common/seo";
 
 const About = () => {
   return (
     <div>
-      <Helmet>
-        <title>About page</title>
-        <meta name="description" content="About page " />
-      
-      </Helmet>
+      <SEO title="About page" description="About page" content="About page" />
 
       <div className="min-h-screen flex flex-col mt-18">
         <main className="flex-1">

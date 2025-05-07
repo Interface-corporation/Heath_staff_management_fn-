@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Input from "../../components/common/Input";
 import Button from "../../components/common/Button";
 import Container from "../../components/layout/Container";
-import { Helmet } from "react-helmet-async";
+import SEO from "../../components/common/seo";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -45,11 +45,7 @@ const Register = () => {
 
   return (
     <>
-      <Helmet>
-        
-        <title>Register page</title>
-        <meta name="description" content="Register page " />
-      </Helmet>
+      <SEO title="Register page" description="Register page" content="Register page" />
       <Container className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-white px-4">
         <div className="w-full max-w-xl bg-white shadow-sm rounded-2xl p-8 sm:p-10 md:p-12 space-y-6">
           <div className="text-center  ">

@@ -40,7 +40,7 @@ const Navbar = () => {
 
           <div className=" text-md hidden gap-5 md:flex items-center  space-x-4">
             <Link to="/login">
-              <Button className=" px-2 py-2 border-2 border-blue-600  rounded-lg cursor-pointer">
+              <Button className=" px-2 py-2 border-2 border-blue-300  rounded-lg cursor-pointer">
                 Log In
               </Button>
             </Link>
