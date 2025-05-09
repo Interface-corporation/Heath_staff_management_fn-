@@ -8,9 +8,8 @@ import Register from "./pages/landing/Register";
 import Services from "./pages/landing/Services";
 import ApplyPage from "./pages/landing/ApplyPage";
 import GuestLayout from "./components/layout/GuestLayout";
-import Sidebar from "./components/layout/Sidebar"
+import Sidebar from "./components/layout/Sidebar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter([
   {
@@ -31,23 +30,19 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />,
-
   },
   {
-    path:"/dashboard",
-    element:<Sidebar/>
-  }
+    path: "/dashboard",
+    element: <Sidebar />,
+  },
 ]);
 
 const helmetContext = {};
 const App = () => {
   return (
-    <HelmetProvider context={helmetContext}>
     <div className="font-['Poppins']">
       <RouterProvider router={router} />
     </div>
-    </HelmetProvider>
-   
   );
 };
 

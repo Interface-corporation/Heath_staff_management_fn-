@@ -1,16 +1,12 @@
-import React from 'react'
-import { Helmet } from 'react-helmet-async'
+import React from "react";
 
-const SEO= ({title,name,content}) => {
+const SEO = ({ title, name, content }) => {
   return (
-   
-        <Helmet>
-        <title>{title}</title>
-         <meta name={name} content={content}/>
+    <>
+      <title>{title}</title>
+      <meta name={name} content={content} />
+    </>
+  );
+};
 
-        </Helmet>
-    
-  )
-}
-
-export default SEO
+export default SEO;
